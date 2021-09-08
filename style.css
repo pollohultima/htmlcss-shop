@@ -14,13 +14,14 @@
 .container {
     width: 1100px;
     margin: 3rem auto;
-    background-color: aquamarine;
+    padding-left: 1%;
 }
 
 .product {
-    width: 32%;
+    width: 31%;
     float: left;
     position: relative;
+    margin: 1%;
 }
 
 img {
@@ -63,16 +64,27 @@ img {
     font-weight: bold;
 }
 
+.label_alone {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    background-color: #00875a;
+    padding: 0 3px;
+    font-size: .9rem;
+    color: white;
+    font-weight: bold;
+}
+
 .brand {
     font-size: .8rem;
 }
 
 .type {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .updated_price {
-    font-size: .8rem;
+    font-size: .9rem;
     color: red;
     font-weight: bold;
 }
